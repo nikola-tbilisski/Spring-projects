@@ -13,9 +13,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * @author Neil Alishev
- */
 @Service
 @Transactional(readOnly = true)
 public class BooksService {

@@ -10,9 +10,6 @@ import ru.alishev.springcourse.Project2Boot.models.Person;
 import ru.alishev.springcourse.Project2Boot.services.PeopleService;
 import ru.alishev.springcourse.Project2Boot.util.PersonValidator;
 
-/**
- * @author Neil Alishev
- */
 @Controller
 @RequestMapping("/people")
 public class PeopleController {

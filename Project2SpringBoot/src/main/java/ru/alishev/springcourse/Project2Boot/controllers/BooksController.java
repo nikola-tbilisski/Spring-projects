@@ -11,9 +11,7 @@ import ru.alishev.springcourse.Project2Boot.services.BooksService;
 import ru.alishev.springcourse.Project2Boot.services.PeopleService;
 import jakarta.validation.Valid;
 
-/**
- * @author Neil Alishev
- */
+
 @Controller
 @RequestMapping("/books")
 public class BooksController {

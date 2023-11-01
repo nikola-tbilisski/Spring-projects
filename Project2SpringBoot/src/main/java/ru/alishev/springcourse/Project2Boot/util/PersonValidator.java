@@ -7,9 +7,6 @@ import org.springframework.validation.Validator;
 import ru.alishev.springcourse.Project2Boot.models.Person;
 import ru.alishev.springcourse.Project2Boot.services.PeopleService;
 
-/**
- * @author Neil Alishev
- */
 @Component
 public class PersonValidator implements Validator {
 

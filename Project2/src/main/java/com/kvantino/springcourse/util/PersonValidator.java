@@ -7,9 +7,6 @@ import org.springframework.validation.Validator;
 import com.kvantino.springcourse.models.Person;
 import com.kvantino.springcourse.services.PeopleService;
 
-/**
- * @author Neil Alishev
- */
 @Component
 public class PersonValidator implements Validator {
 

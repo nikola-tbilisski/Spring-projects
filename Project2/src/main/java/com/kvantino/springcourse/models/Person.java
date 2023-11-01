@@ -6,9 +6,6 @@ import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 import java.util.List;
 
-/**
- * @author Neil Alishev
- */
 @Entity
 @Table(name = "Person")
 public class Person {
