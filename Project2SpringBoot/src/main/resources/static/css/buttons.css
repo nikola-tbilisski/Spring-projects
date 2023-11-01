@@ -1,0 +1,28 @@
+.btn-group .button:hover, .button:hover {
+    background: lightsteelblue;
+    transform: scale(1.05);
+}
+
+.btn-group .button, .button {
+    background-color: steelblue;
+    cursor: pointer;
+    border: none;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    box-shadow: 0 0 8px rgb(177, 177, 177);
+    border-radius: 20px;
+    transform: scale(1);
+    transition: all 0.2s;
+    width: 150px;
+}
+
+.error {
+    color: red;
+}
